@@ -1,6 +1,6 @@
 <?php
 include('../koneksi.php');
-$sql = "SELECT * FROM data_lembaga_desa";
+$sql = "SELECT * FROM data_jenis_potensi_desa";
 $result = mysqli_query($conn, $sql);
 
 $array = array();
@@ -8,9 +8,8 @@ if (mysqli_num_rows($result) > 0) {
     
     while($row = mysqli_fetch_array($result)) {
         $data = array(
-            'id_lembaga' => $row['id_lembaga'],
-            'nama_lembaga' => $row['nama_lembaga'],
-            'jenis_lembaga' => $row['jenis_lembaga'],
+            'id_potensi' => $row['id_potensi'],
+            'nama_potensi' => $row['nama_potensi'],
         );
         array_push($array, $data);
     }
