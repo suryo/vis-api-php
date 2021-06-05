@@ -8,3 +8,6 @@ API with php programing
    http://localhost/vis-api-php/read.php
 
 example to access another API :
+json export :
+http://localhost/vis-api-php/data_jenis_lembaga_desa/read.php
+http://localhost/vis-api-php/data_jenis_surat_/read.php
