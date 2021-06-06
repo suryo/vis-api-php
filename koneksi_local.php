@@ -1,3 +1,3 @@
 <?php
-$conn = new mysqli('localhost', 'root', '', 'webapi');
+$conn = new mysqli('localhost', 'root', '', 'u6347113_vis');
 ?>
